@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+text-align: center;
+width: 1000px;
+}
+.img2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logo{
+
+    margin-bottom: 40px;
+}
+.image-1{
+    width: 50%;
+}
+.title{
+    margin-bottom: 30px;
+}
+.title h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #949494;
+    margin-bottom: 10px;
+}
+.title span{
+    color: black;
+    font-weight: 600;
+}
+.inputs{
+    margin-bottom: 40px;
+}
+#email{
+    padding: 15px 20px 15px 20px;
+    width: 350px;
+    border: 1px solid hsl(0, 0%, 59%);
+    border-color: #E1E5EF;
+    color: black;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 11px;
+    color: hsl(0, 100%, 50%);
+    display: none;
+}
+.nome.active{
+    display: block;
+}
+.inputs.erro #email{
+    border: 1px solid hsl(0, 100%, 50%);
+}
+#email::placeholder{
+    color: hsl(0, 0%, 59%)
+}
+#email:focus{
+    border-color: hsl(0, 0%, 59%);
+    outline: none;
+}
+.but{
+    padding: 15px 40px 15px 40px;
+    background-color: #4D7BF3;
+    color: white;
+    font-weight: 300;
+    border-radius: 40px;
+    border: none;
+}
+.icons{
+    margin-bottom: 20px;
+}
+.list-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+li{
+    list-style: none;
+ 
+}
+.icon-1,.icon-2,.icon-3{
+    padding: 5px;
+    width: 20px;
+    color: blue;
+    height: 20px;
+    border: 1px solid hsl(0, 0%, 59%);;
+    border-radius: 45%;
+}
+.icon-2{
+    margin: 0px 15px 0px 15px;
+}
